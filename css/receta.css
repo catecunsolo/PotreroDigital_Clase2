@@ -40,10 +40,12 @@ h3 {
 
 .t_ingredientes {
   color: green;
+  text-decoration: underline green;
 }
 
 .t_pasos {
   color: red;
+  text-decoration: underline red;
 }
 
 .spacing {
