@@ -101,7 +101,7 @@ ul {
 }
 
 .fuente_lista {
-  font-family: "Segoe UI";
+  font-family: "Oswald", sans-serif;
   font-style: initial;
   color: #fdfffc;
   /* margin-right: 500px; */
@@ -184,7 +184,7 @@ nav {
 nav a {
   box-sizing: border-box;
   font-size: 1.7em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Dimis", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px 100px;
   text-decoration: none;
   border-left: 3px solid whitesmoke;
@@ -361,4 +361,9 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+@font-face {
+  font-family: "Dimis";
+  src: url("../fonts/DIMIS.TTF") format("truetype");
 }
