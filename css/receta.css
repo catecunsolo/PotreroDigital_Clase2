@@ -237,8 +237,10 @@ footer {
 }
 
 .card-align {
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: space-around;
+  align-self: center;
+  align-content: center;
+  align-content: space-around;
 }
 
 /*MEDIA QUERIES*/
@@ -426,4 +428,3 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-
