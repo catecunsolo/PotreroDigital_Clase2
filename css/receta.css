@@ -1,3 +1,4 @@
+/*BODY*/
 body {
   background-color: #011627;
   margin: 0;
@@ -6,6 +7,7 @@ body {
   font-size: 16px;
 }
 
+/*HEADER*/
 /* header h1,
 nav {
   min-width: 100vw;
@@ -44,6 +46,53 @@ h2 {
   margin-bottom: 3.4em;
 }
 
+nav {
+  text-align: center;
+  background-color: #ff9f1c;
+  border-top: whitesmoke solid 2px;
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  box-sizing: border-box;
+  font-size: 1.7em;
+  font-family: "Dimis", Tahoma, Geneva, Verdana, sans-serif;
+  /*  margin: 0px 100px;*/
+  text-decoration: none;
+  border-left: 3px solid whitesmoke;
+  border-right: 3px solid whitesmoke;
+  padding: 0px 15px;
+}
+
+nav a:link {
+  color: whitesmoke;
+}
+
+nav a:active {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+
+nav a.red:hover {
+  background-color: red;
+}
+nav a.white:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+nav a.green:hover {
+  background-color: green;
+}
+
+nav a:visited {
+  color: grey;
+}
+
+/*MAIN SECTION*/
 h3 {
   font-family: Segoe UI;
   background-color: #fdfffc;
@@ -114,13 +163,14 @@ ol {
 .container-listas {
   display: flex;
   flex-wrap: wrap;
-  width: 100%
+  width: 100%;
 }
 .lista {
   flex-grow: 2.5;
   flex-basis: content;
 }
 
+/*END SECTION*/
 .mapa {
   display: block;
   margin: auto;
@@ -145,6 +195,7 @@ ol {
   height: 315px;
 }
 
+/*FOOTER*/
 .final {
   position: absolute;
   margin-bottom: 0px;
@@ -174,49 +225,60 @@ footer {
   opacity: 0.7;
 }
 
-nav {
-  text-align: center;
-  background-color: #ff9f1c;
-  border-top: whitesmoke solid 2px;
-  padding-bottom: 3px;
+.img-responsive {
+  width: 50%;
+  align-self: center;
 }
 
-nav a {
-  box-sizing: border-box;
-  font-size: 1.7em;
-  font-family: "Dimis", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0px 100px;
-  text-decoration: none;
-  border-left: 3px solid whitesmoke;
-  border-right: 3px solid whitesmoke;
-  padding: 0px 15px;
+.car-responsive {
+  width: 50%;
+  height: 25%;
+  justify-content: center;
 }
 
-nav a:link {
-  color: whitesmoke;
+.card-align {
+  justify-content: space-between;
+  align-content: space-between;
 }
 
-nav a:active {
-  background-color: rgb(255, 255, 255);
-  color: #000;
+/*MEDIA QUERIES*/
+
+@media (max-width: 575px) {
+  nav {
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
 }
 
-nav a.red:hover {
-  background-color: red;
-}
-nav a.white:hover {
-  background-color: blanchedalmond;
-  color: black;
-}
-nav a.green:hover {
-  background-color: green;
+@media (max-width: 575px) {
+  .media-mobile {
+    display: none;
+  }
 }
 
-nav a:visited {
-  color: grey;
+/*@media (max-width: 480px) {
+  nav a {
+    border: none;
+  }
+  img {
+    min-width: 100vw;
+  }
 }
+
+@media (min-width: 480px) and (max-width: 780px) {
+  nav a {
+    border: none;
+  }
+}*/
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*FONTS*/
+
+@font-face {
+  font-family: "Dimis";
+  src: url("../fonts/DIMIS.TTF") format("truetype");
+}
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
@@ -231,6 +293,8 @@ nav a:visited {
   font-smooth: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+/*CONTACT*/
 
 .formu {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -361,9 +425,4 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
-}
-
-@font-face {
-  font-family: "Dimis";
-  src: url("../fonts/DIMIS.TTF") format("truetype");
 }

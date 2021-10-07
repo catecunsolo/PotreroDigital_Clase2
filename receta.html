@@ -4,15 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Caterina Cunsolo " />
+    <meta name="keywords" content="Taco, Comida, Receta, Mexico" />
     <title>TaCunso</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/receta.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-
     <header>
       <img class="gorro" src="imagenes/images.png" alt="gorrito mexi" />
       <h1 class="estilo_titulo">
@@ -38,124 +48,288 @@
     <br />
     <main>
       <div class="margen">
-    <p class="principal">
-      ¡Bienvenida/os! En el día de hoy les traemos la receta de...
-    </p>
-    <h2 class="estilo_titulo">¡NACHOS!</h2>
+        <p class="principal">
+          ¡Bienvenida/os! En el día de hoy les traemos la receta de...
+        </p>
+        <h2 class="estilo_titulo">¡NACHOS!</h2>
+      </div>
+
+      <div class="container car-responsive media-mobile">
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://lasfuentesid.com/wp-content/uploads/2021/06/Alimentos_mini.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1531088908835-39526ed12409?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWV4aWNhbiUyMGN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://media.istockphoto.com/photos/mexican-food-mix-colorful-background-mexico-picture-id915625986?k=20&m=915625986&s=170667a&w=0&h=nFUIsX9oT1eBLgBByLMo1DnIPQriFxbR-kbhI2bJdts="
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <section class="container-listas">
+        <div class="lista">
+          <h3 class="t_ingredientes">-> INGREDIENTES</h3>
+          <ul class="fuente_lista">
+            <li>1 TAZA POLENTA</li>
+            <li>1 TAZA HARINA</li>
+            <li>1 TAZA AGUA</li>
+            <li>
+              CONDIMENTOS A GUSTO (Recomendación: SAL, PIMENTÓN y PROVENZAL).
+            </li>
+          </ul>
+        </div>
+        <aside>
+          <img
+            class="img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_r246AaJeY3vvF1RUGpkOU6um-25pzRDGDr6F5cRAtDN_Vw1gpIU9wUSLvgpPXYhF0Q&usqp=CAU"
+            alt="ingredientes"
+            title="Ingredientes"
+          /><!--Title->Texto que aparece cuando el cursor está por sobre la imagen-->
+        </aside>
+      </section>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <section class="container-listas">
+        <div class="lista">
+          <h3 class="t_pasos">-> PASOS A SEGUIR</h3>
+          <ol class="fuente_lista">
+            <li>Mezclar todos los ingredientes juntos.</li>
+            <li>Cortar la masa formada en bollitos.</li>
+            <li>Amasar cada uno de ellos.</li>
+            <li>Cortar en "triangulitos" y pincharlos con tenedor.</li>
+            <li>Freír y una vez dorados ponerlos en papel absorbente.</li>
+            <li>Listo! A disfrutar!</li>
+          </ol>
+        </div>
+        <aside>
+          <img
+            class="img img_pasos"
+            src="https://i.blogs.es/6a6803/paso-a-paso/450_1000.jpg"
+            alt="procedimientos"
+          />
+        </aside>
+      </section>
+
+      <section>
+        <br />
+        <br />
+        <br />
+        <h2 class="principal">¿Necesitás un video?</h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/0RG1qtZK2WY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <br />
+        <br />
+        <br />
+        <h2 class="principal">Por acá podés encontrarlos...</h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <iframe
+          class="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.342811804292!2d-99.1837352851169!3d19.440781145456782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9ee468f8833%3A0x229f6f99b3ac944d!2sPinche%20Bar!5e0!3m2!1ses!2sar!4v1629532087670!5m2!1ses!2sar"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <br />
+        <br />
+        <br />
+        <h2 class="principal">
+          Te dejo una canción que te acompañe en la preparación!
+        </h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <iframe
+          class="cancion"
+          src="https://open.spotify.com/embed/track/5rUf1z6fnel1GIApbQ7rm2"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </main>
+
+    <!-- ACA VIENEN LAS CARDS DE BOOSTRAP-->
+    <div class="container card-align">
+      <div class="row">
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 20rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpaXj4rJMU31ondz8-lBTlPjGUFYFaeX8jdw&usqp=CAU"
+            class="card-img-top img-responsive"
+            alt="tamales"
+          />
+          <div class="card-body">
+            <h5 class="card-title">TAMALES</h5>
+            <p class="card-text">
+              Te explicamos cómo preparar este plato típico latinoamericano en
+              versión de hoja de maíz y pollo.
+            </p>
+            <a
+              target="blank"
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recetavenezolana.com%2Ftamales-mexicanos%2F&psig=AOvVaw07iSG6nZX6SevOfE8o-gXd&ust=1633649659562000&source=images&cd=vfe&ved=2ahUKEwic07eu-bbzAhUwMLkGHV8fBGoQr4kDegUIARCOAg"
+              class="btn btn-primary"
+              >Ir la receta!</a
+            >
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 20rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSokJJ-c_v5fO5HX-fRU3unQ5fTxij4Zf58uA&usqp=CAU"
+            class="card-img-top img-responsive"
+            alt="enchiladas"
+          />
+          <div class="card-body">
+            <h5 class="card-title">ENCHILADAS</h5>
+            <p class="card-text">
+              ¿Tenés ganas de hacer una buenas enchiladas potosinas? Gracias a
+              ls chef n°1 acá tenés la mejor receta!
+            </p>
+            <a
+              target="blank"
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F141581982008489788%2F&psig=AOvVaw07iSG6nZX6SevOfE8o-gXd&ust=1633649659562000&source=images&cd=vfe&ved=2ahUKEwic07eu-bbzAhUwMLkGHV8fBGoQr4kDegUIARCuAQ"
+              class="btn btn-primary"
+              >Ir la receta!</a
+            >
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 20rem">
+          <img
+            src="https://www.billmo.com/wp-content/uploads/2017/09/28-1-300x300.png"
+            class="card-img-top img-responsive"
+            alt="tacos"
+          />
+          <div class="card-body">
+            <h5 class="card-title">TACOS</h5>
+            <p class="card-text">
+              ¿Cuál es el plato más reconocido de México? Los fantásticos tacos!
+              Muchos posibles ingredientes pero te ayudamos con la mejor
+              combinación.
+            </p>
+            <a
+              target="blank"
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fveganvvocals.com%2Fes%2F2018%2F07%2F22%2Ftacos-mexicanos-veganos%2F&psig=AOvVaw07iSG6nZX6SevOfE8o-gXd&ust=1633649659562000&source=images&cd=vfe&ved=2ahUKEwic07eu-bbzAhUwMLkGHV8fBGoQr4kDegUIARCyAQ"
+              class="btn btn-primary"
+              >Ir la receta!</a
+            >
+          </div>
+        </div>
+
+        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 20rem">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZSlOZ4E6L6JEYoghK6SbLNgG6x7AgMUaJBt8gfGU2XHyAEkSXIk3UENsLPYNVbvLBbaA&usqp=CAU"
+            class="card-img-top img-responsive"
+            alt="esquites"
+          />
+          <div class="card-body">
+            <h5 class="card-title">ESQUITES</h5>
+            <p class="card-text">
+              ¿Receta simple? No, simplísima receta del platillo típico de
+              Nogales
+            </p>
+            <a
+              target="blank"
+              href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F359443613982822382%2F&psig=AOvVaw07iSG6nZX6SevOfE8o-gXd&ust=1633649659562000&source=images&cd=vfe&ved=2ahUKEwic07eu-bbzAhUwMLkGHV8fBGoQr4kDegUIARDKAQ"
+              class="btn btn-primary"
+              >Ir la receta!</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <br />
+    <br />
+    <br />
+    <footer id="copyright">
+      <p>
+        Hola, mi nombre es Caterina Cunsolo! Utilizo este pequeño pedacito para
+        contarles que esta es mi primer página web con HTML :') Estoy muy
+        ansiosa por seguir aprendiendo e incorporando conocimiento. Hasta la
+        próxima!
+      </p>
+    </footer>
 
-    <section class="container-listas">
-      <div class="lista">
-    <h3 class="t_ingredientes">-> INGREDIENTES</h3>
-    <ul class="fuente_lista">
-      <li>1 TAZA POLENTA</li>
-      <li>1 TAZA HARINA</li>
-      <li>1 TAZA AGUA</li>
-      <li>CONDIMENTOS A GUSTO (Recomendación: SAL, PIMENTÓN y PROVENZAL).</li>
-    </ul>
-  </div>
-    <aside>
-    <img
-      class="img"
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY_r246AaJeY3vvF1RUGpkOU6um-25pzRDGDr6F5cRAtDN_Vw1gpIU9wUSLvgpPXYhF0Q&usqp=CAU"
-      alt="ingredientes"
-    />
-    </aside>
-  </section>
-    
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <!-- Optional JavaScript; choose one of the two! -->
 
-    <section class="container-listas">
-    <div class="lista">
-    <h3 class="t_pasos">-> PASOS A SEGUIR</h3>
-    <ol class="fuente_lista">
-      <li>Mezclar todos los ingredientes juntos.</li>
-      <li>Cortar la masa formada en bollitos.</li>
-      <li>Amasar cada uno de ellos.</li>
-      <li>Cortar en "triangulitos" y pincharlos con tenedor.</li>
-      <li>Freír y una vez dorados ponerlos en papel absorbente.</li>
-      <li>Listo! A disfrutar!</li>
-    </ol>
-  </div>
-    <aside>
-    <img
-      class="img img_pasos"
-      src="https://i.blogs.es/6a6803/paso-a-paso/450_1000.jpg"
-      alt="procedimientos"
-    />
-  </aside>
-    </section>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
 
-
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
   </body>
-  <section>
-  <br />
-  <br />
-  <br />
-  <h2 class="principal">¿Necesitás un video?</h2>
-  <br />
-  <br />
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <iframe
-    class="video"
-    src="https://www.youtube.com/embed/0RG1qtZK2WY"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-  <br />
-  <br />
-  <br />
-  <h2 class="principal">Por acá podés encontrarlos...</h2>
-  <br />
-  <br>
-  <br>
-  <br>
-  <br>
-  <br />
-  <iframe
-    class="mapa"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.342811804292!2d-99.1837352851169!3d19.440781145456782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9ee468f8833%3A0x229f6f99b3ac944d!2sPinche%20Bar!5e0!3m2!1ses!2sar!4v1629532087670!5m2!1ses!2sar"
-    allowfullscreen=""
-    loading="lazy"
-  ></iframe>
-  <br />
-  <br />
-  <br />
-  <h2 class="principal">
-    Te dejo una canción que te acompañe en la preparación!
-  </h2>
-  <br />
-  <br />
-  <br>
-  <br>
-  <iframe
-    class="cancion"
-    src="https://open.spotify.com/embed/track/5rUf1z6fnel1GIApbQ7rm2"
-    frameborder="0"
-    allowtransparency="true"
-    allow="encrypted-media"
-  ></iframe>
-  </section>
-  <br />
-  <br />
-  <br />
-  </main>
-  <footer id="copyright">
-    <p>
-      Hola, mi nombre es Caterina Cunsolo! Utilizo este pequeño pedacito para
-      contarles que esta es mi primer página web con HTML :') Estoy muy ansiosa
-      por seguir aprendiendo e incorporando conocimiento. Hasta la próxima!
-    </p>
-  </footer>
 </html>
