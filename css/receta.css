@@ -225,22 +225,17 @@ footer {
   opacity: 0.7;
 }
 
+/*cards*/
 .img-responsive {
   width: 50%;
   align-self: center;
 }
 
+/*carrousel*/
 .car-responsive {
-  width: 50%;
-  height: 25%;
+  width: 70%;
+  height: 35%;
   justify-content: center;
-}
-
-.card-align {
-  justify-content: space-around;
-  align-self: center;
-  align-content: center;
-  align-content: space-around;
 }
 
 /*MEDIA QUERIES*/
@@ -250,9 +245,6 @@ footer {
     flex-wrap: wrap;
     flex-grow: 1;
   }
-}
-
-@media (max-width: 575px) {
   .media-mobile {
     display: none;
   }
