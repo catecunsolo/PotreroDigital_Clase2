@@ -196,6 +196,24 @@ ol {
 }
 
 /*FOOTER*/
+
+.button-footer {
+  padding: 6px 20px;
+  box-sizing: border-box;
+  margin: auto;
+  /*border-radius: 30%;*/
+
+  background-color: #ff9f1c;
+  color: #082d4b;
+  display: flex;
+  justify-content: center;
+}
+
+.button-footer:hover {
+  background-color: #082d4b;
+  color: #ff9f1c;
+}
+
 .final {
   position: absolute;
   margin-bottom: 0px;
